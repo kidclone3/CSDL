@@ -2,7 +2,8 @@ import pandas as pd
 from pandas.core.indexing import _iLocIndexer
 df = pd.read_excel('dean.xlsx')
 
-# print(df)
+# Should save the output to some external file.
+
 print('INSERT INTO DEAN(TENDA,MADA,DDIEM_DA,PHONG) VALUES ', end = ' ')
 for i in range(len(df)):
     print('(', end='')    
