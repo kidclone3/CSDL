@@ -1,0 +1,1 @@
+INSERT INTO DEAN(TENDA,MADA,DDIEM_DA,PHONG) VALUES  ('San pham X ', '1', 'Vũng Tàu ', '5' ),('San pham Y ', '2', 'Nha Trang ', '5' ),('San pham Z ', '3', 'TP HCM', '5' ),('Tin hoc hoa', '10', 'Hà Nội', '4' ),('Cap quang', '20', 'TP HCM', '1' ),('Dao tao', '30', 'Hà Nội', '4' ),
