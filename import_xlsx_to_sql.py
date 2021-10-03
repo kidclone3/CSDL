@@ -1,10 +1,10 @@
 import pandas as pd
 from pandas.core.indexing import _iLocIndexer
-df = pd.read_excel('dean.xlsx')
+df = pd.read_excel('congviec.xlsx')
 
 # Should save the output to some external file.
 
-print('INSERT INTO DEAN(TENDA,MADA,DDIEM_DA,PHONG) VALUES ', end = ' ')
+print('INSERT INTO CONGVIEC(MADA, STT, TEN_CONG_VIEC) VALUES ', end = ' ')
 for i in range(len(df)):
     print('(', end='')    
     for j in range(len(df.iloc[i])):
